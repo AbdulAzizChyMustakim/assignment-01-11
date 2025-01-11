@@ -366,13 +366,25 @@
 
     border-radius: 16px;
     background-image: url('assets/quote-bg.png');
-    background-position: 20px;
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    position: relative;
+}
+.yu-section::before {
+    content: "";
+    background-image: url('assets/quote-bg.png'); /* Replace with your image */
     background-repeat: no-repeat;
     background-position: top left;
     background-size: auto;
- 
-
-}
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Make sure it covers the full width */
+    height: 100%; /* Make sure it covers the full height */
+    padding-left: 50px; /* Add space between the left edge and the image */
+    padding-top: 50px; /* Add space between the top edge and the image */
+    z-index: -1; /* Make sure the background is behind the content */
+  }
 .yu-p{
     font-size: 16px;
     font-weight: 400;
