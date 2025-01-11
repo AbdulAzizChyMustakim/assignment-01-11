@@ -358,3 +358,35 @@
     margin: 0;
     cursor: pointer;
 }
+.yu-section{
+    width: 90%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 48px 24px;
+
+    border-radius: 16px;
+    background-image: url('assets/quote-bg.png');
+    background-position: 20px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: auto;
+ 
+
+}
+.yu-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 10px;
+}
+.content h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 10px;
+}
+.content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.6);
+}
